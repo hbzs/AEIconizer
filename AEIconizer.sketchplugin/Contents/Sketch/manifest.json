@@ -2,19 +2,26 @@
   "author": "tadija",
   "commands": [
     {
-      "script": "AEIconizer.cocoascript",
+      "script": "AEIconizer-ios.cocoascript",
       "shortcut": "ctrl shift i",
-      "name": "AEIconizer",
-      "identifier": "AEIconizer"
+      "name": "AEIconizer-ios",
+      "identifier": "AEIconizer-ios"
+    },
+    {
+      "script": "AEIconizer-mac.cocoascript",
+      "shortcut": "ctrl shift m",
+      "name": "AEIconizer-mac",
+      "identifier": "AEIconizer-mac"
     }
   ],
   "menu": {
     "items": [
-      "AEIconizer"
+      "AEIconizer-ios",
+      "AEIconizer-mac"
     ]
   },
   "identifier": "net.tadija.sketch.AEIconizer",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Makes your life easy when you need to resize artwork for iOS app icon.",
   "authorEmail": "tadija@me.com",
   "name": "AEIconizer"
